@@ -1,0 +1,94 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "fa4b1e10-d4da-11ee-af67-4dbc8ad9671e"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "70a80a80-d4c9-11ee-af67-4dbc8ad9671e"
+    },
+    "label" : "",
+    "name" : "Dispositivo1",
+    "softwareId" : null,
+    "type" : "Perfil1"
+  },
+  "credentials" : {
+    "credentialsId" : "696cc600ebeb9892d8521203652be055507d4efae5c9b0a7de8cb499822ef17d",
+    "credentialsType" : "MQTT_BASIC",
+    "credentialsValue" : "{\"clientId\":\"ffc6ec3moxrxd34srpen\",\"userName\":\"tyx9zqyaeu5gf5r7omt4\",\"password\":\"0by1neji2uulrn2zpbxh\"}"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1708985380157,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1708985294283,
+      "longValue" : 1708985294188,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1708985391963,
+      "longValue" : 1708985389409,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1708985389063,
+      "longValue" : 1708985389062,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1708985389437,
+      "longValue" : 1708985389436,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "macDispositivo1",
+      "lastUpdateTs" : 1708982629408,
+      "longValue" : null,
+      "strValue" : "Qrm40lHqSq00035DAQ01"
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}
